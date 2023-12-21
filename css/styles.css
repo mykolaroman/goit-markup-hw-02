@@ -45,3 +45,53 @@ letter-spacing: 0.02em;
 .address-link:focus{
 color: #404BBF;
 }
+/* main */
+.first-title {
+    color: #FFF;
+text-align: center;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 1.12px;
+}
+.first-button {
+}
+.feature {
+}
+.feature-title {
+}
+.feature-name {
+}
+.feature-text {
+}
+.feature-list-item {
+}
+.team {
+}
+.team-title {
+}
+.team-photo-item {
+}
+.team-name {
+}
+.team-text {
+}
+.portfolio {
+}
+.portfolio-text {
+}
+.project-name {
+}
+.project-text {
+}
+.project-names {
+}
+.main-footer {
+}
+.logo {
+}
+.logo-part {
+}
+.footer-text {
+}
