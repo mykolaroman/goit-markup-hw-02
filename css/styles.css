@@ -95,9 +95,6 @@ color: #404BBF;
 .feature {
     text-align: center;
 }
-.feature-title {
-
-}
 .feature-name {
     color:  #2E2F42;
     font-size: 20px;
@@ -110,8 +107,6 @@ color: #404BBF;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-}
-.feature-list-item {
 }
 /* ------------ */
 
