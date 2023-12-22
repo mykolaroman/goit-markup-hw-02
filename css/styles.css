@@ -10,7 +10,7 @@ ul, ol {
 list-style: none;
 }
 .wrapper {
-    background: #FFF;
+
 
 }
 .top-line {
@@ -18,7 +18,7 @@ list-style: none;
     background: #FFF;
 }
 .header-navigation {
-    background: #FFF;
+
 }
 .logo {
     color:#4D5AE5;
@@ -29,7 +29,7 @@ line-height: 1,17;
 letter-spacing: 0,03em;
 text-transform: uppercase;
 }
-.logo-part-first {
+.logo-part {
     color:  #2E2F42;
     font-size: 18px;
     font-weight: 700;
@@ -148,16 +148,9 @@ letter-spacing: 0.02em;
 
 /* ------section4------ */
 .portfolio {
-    display: flex;
-width: 360px;
-height: 420px;
-padding-bottom: 32px;
-flex-direction: column;
-align-items: flex-start;
-gap: 32px;
-flex-shrink: 0;
+    background: #FFF;
 }
-.portfolio-text {
+.portfolio-title {
     color:  #2E2F42;
 text-align: center;
 font-size: 36px;
@@ -166,14 +159,14 @@ line-height: 1.1;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 }
-.project-name {
+.portfolio-name {
     color:  #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.project-text {
+.portfolio-text {
     color:  #434455;
 font-size: 16px;
 line-height: 1.5;
