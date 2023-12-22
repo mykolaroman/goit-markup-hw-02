@@ -113,6 +113,7 @@ letter-spacing: 0.02em;
 /* ------section3------ */
 .team {
     text-align: center;
+    background: , #F4F4FD;
 }
 .team-title {
     color:  #2E2F42;
