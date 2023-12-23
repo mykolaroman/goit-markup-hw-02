@@ -19,7 +19,7 @@ font-family: Raleway, sans-serif;
 font-size: 18px;
 font-weight: 700;
 line-height: 1.17;
-letter-spacing: 003em;
+letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .logo-part-first{
@@ -70,7 +70,7 @@ letter-spacing: 0.02em;
 .first-button {
     color: #FFF;
     background-color: #4D5AE5;
-    font-family: inherit
+    font-family: inherit;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
