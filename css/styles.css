@@ -5,11 +5,21 @@ background-color: #FFF;
 }
 a {
     text-decoration: none;
+    color: currentColor;
+}
+p,h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 ul, ol {
 list-style: none;
+margin-top: 0;
+margin-bottom: 0;
+padding-left: 0;
 }
 .top-line {
+    width: 1440px;
+flex-shrink: 0;
 }
 .header-navigation {
 }
@@ -21,6 +31,8 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+padding-top: 25.5px;
+padding-bottom: 25.5px;
 }
 .logo-part-first{
     color:  #2E2F42;
@@ -30,6 +42,8 @@ text-transform: uppercase;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
 }
 .nav-link {
     color: #2E2F42;
@@ -37,6 +51,8 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
+padding-top: 24px;
+padding-bottom: 24px;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -44,12 +60,15 @@ letter-spacing: 0.02em;
 }
 .address-contacts {
 font-style: normal;
+
 }
 .address-link {
     color: #434455;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+padding-top: 24px;
+padding-bottom: 24px;
 }
 .address-link:hover,
 .address-link:focus{
@@ -57,7 +76,14 @@ color: #404BBF;
 }
 /* main section----H1-----*/
 .background {
-background-color: #2E2F42;
+    background-color: #2E2F42; 
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.container-hero {
+    padding: 188px 472px 292px 472px;
+    max-width: 1158px;
+    margin: 0 auto;
 }
 .qwerty{
     color:  #FFF;
@@ -66,6 +92,8 @@ font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
+max-width: 496px;
+margin-bottom: 48px;
 }
 .first-button {
     color: #FFF;
@@ -87,6 +115,8 @@ letter-spacing: 0.02em;
 /* ------section----FEATURE------ */
 .feature {
     background-color: #FFF;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 /* .feature-title {
 } */
@@ -100,6 +130,7 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
+margin-bottom: 8px;
 }
 .feature-text {
     color: #434455;
@@ -112,6 +143,8 @@ letter-spacing: 0.02em;
 /* ------section----TEAM------ */
 .team {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .team-title {
     color:  #2E2F42;
@@ -121,6 +154,7 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+margin-bottom: 72px;
 }
 .team-list {
 }
@@ -136,6 +170,8 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
+margin-top: 32px;
+margin-bottom: 8px;
 }
 .team-text {
     color: #434455;
@@ -149,6 +185,8 @@ letter-spacing: 0.02em;
 /* ------section---PORTFOLIO------ */
 .portfolio {
     background-color: #FFF;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .portfolio-title {
     color: #2E2F42;
@@ -158,6 +196,7 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+margin-bottom: 72px;
 }
 .portfolio-list {
 }
@@ -171,6 +210,7 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
+margin-bottom: 8px;
 }
 .portfolio-text {
     color: #434455;
@@ -185,7 +225,8 @@ letter-spacing: 0.02em;
 /* ------footer------ */
 .main-footer {
     background:  #2E2F42;
-
+    padding-top: 120px;
+    padding-bottom: 120px;
 
 }
 .logo {
@@ -211,6 +252,26 @@ text-transform: uppercase;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+margin-top: 16px;
 }
 /* ----------- */
+.container {
+    max-width: 1158px;
+    padding-left: 156px;
+    padding-right: 156px;
+    margin: 0 auto;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
 
