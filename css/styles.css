@@ -192,6 +192,7 @@ margin-bottom: 72px;
     background-color: #FFF;
 }
 .team-img {
+    display: block;
 }
 .team-name {
     color: #2E2F42;
@@ -235,6 +236,7 @@ margin-bottom: 72px;
 .portfolio-item {
 }
 .portfolio-img {
+    display: block;
 }
 .portfolio-name {
     color: #2E2F42;
