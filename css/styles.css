@@ -21,6 +21,9 @@ padding: 0;
     padding: 0 15px;
     margin: 0 auto;
 }
+.img {
+    display: block;
+}
 .header-container {
     display: flex;
     align-items: center;
@@ -98,12 +101,12 @@ color: #404BBF;
 }
 /* main section----H1-----*/
 .background {
-    background-color: #2E2F42; 
-    padding-top: 120px;
-    padding-bottom: 120px;
+    background-color: #2E2F42;
+    text-align: center;
 }
 .container-hero {
-    padding: 188px 472px 292px 472px;
+    padding-top: 188px;
+    padding-bottom: 292px;
     max-width: 1158px;
     margin: 0 auto;
 }
@@ -115,6 +118,7 @@ font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
 max-width: 496px;
+margin: 0 auto;
 margin-bottom: 48px;
 }
 .first-button {
