@@ -13,15 +13,26 @@ p,h1,h2,h3,h4,h5,h6 {
 }
 ul, ol {
 list-style: none;
-margin-top: 0;
-margin-bottom: 0;
-padding-left: 0;
+margin: 0;
+padding: 0;
+}
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header-container {
+    display: flex;
+    align-items: center;
 }
 .top-line {
     width: 1440px;
 flex-shrink: 0;
+border-bottom: 1px solid  #E7E9FC;
 }
 .header-navigation {
+    display: flex;
+    align-items: center;
 }
 .logo {
     color:#4D5AE5;
@@ -33,6 +44,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 padding-top: 25.5px;
 padding-bottom: 25.5px;
+margin-right: 76px;
 }
 .logo-part-first{
     color:  #2E2F42;
@@ -45,6 +57,10 @@ padding-bottom: 25.5px;
     padding-top: 25.5px;
     padding-bottom: 25.5px;
 }
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
 .nav-link {
     color: #2E2F42;
 font-size: 16px;
@@ -53,6 +69,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 padding-top: 24px;
 padding-bottom: 24px;
+display: block;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -60,7 +77,12 @@ padding-bottom: 24px;
 }
 .address-contacts {
 font-style: normal;
+margin-left: auto;
 
+}
+.address-list {
+    display: flex;
+    gap: 40px;
 }
 .address-link {
     color: #434455;
@@ -121,6 +143,8 @@ margin-bottom: 48px;
 /* .feature-title {
 } */
 .feature-list {
+    display: flex;
+    gap: 24px;
 }
 .feature-item {
 }
@@ -157,6 +181,8 @@ text-transform: capitalize;
 margin-bottom: 72px;
 }
 .team-list {
+    display: flex;
+    gap: 24px;
 }
 .team-item {
     background-color: #FFF;
@@ -199,6 +225,8 @@ text-transform: capitalize;
 margin-bottom: 72px;
 }
 .portfolio-list {
+    display: flex;
+    gap: 24px;
 }
 .portfolio-item {
 }
@@ -255,12 +283,7 @@ letter-spacing: 0.02em;
 margin-top: 16px;
 }
 /* ----------- */
-.container {
-    max-width: 1158px;
-    padding-left: 156px;
-    padding-right: 156px;
-    margin: 0 auto;
-}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -272,6 +295,6 @@ margin-top: 16px;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
+    }
 
 
